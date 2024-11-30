@@ -1,0 +1,40 @@
+# Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment files
+.env
+*.env
+
+# Virtual environment
+env/
+venv/
+venv.bak/
+ENV/
+
+# Database
+db.sqlite3
+
+# Django migrations
+*/migrations/*
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Static and media files
+staticfiles/
+media/
+
+# Node modules (if using npm/yarn for frontend)
+node_modules/
+
+# Secrets and keys
+secrets.json
